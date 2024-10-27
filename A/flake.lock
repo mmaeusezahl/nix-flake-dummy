@@ -6,16 +6,17 @@
       },
       "locked": {
         "dir": "A/B",
-        "lastModified": 1730044766,
-        "narHash": "sha256-bpiatmJX8CT3zFeVVHu1XYI24r6eVEka/TbFuJv0qBI=",
-        "ref": "refs/heads/master",
-        "rev": "7260689f3e27a15ac02c9272ef12f9f8512e04be",
-        "revCount": 5,
+        "lastModified": 1730045049,
+        "narHash": "sha256-wk6JH7D5uM2K4DJA4O7Wcsz0Qc3AbnED+wgZqMKNL9I=",
+        "ref": "master",
+        "rev": "3d0166f34a0fef7a585c76ad794cba93e0c69ec3",
+        "revCount": 6,
         "type": "git",
         "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A/B"
       },
       "original": {
         "dir": "A/B",
+        "ref": "master",
         "type": "git",
         "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A/B"
       }
