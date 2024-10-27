@@ -1,16 +1,16 @@
 {
   "nodes": {
-    "mypackage_B": {
+    "mypackage": {
       "inputs": {
         "nixpkgs": "nixpkgs"
       },
       "locked": {
         "dir": "A/B",
-        "lastModified": 1730045499,
-        "narHash": "sha256-fz4/95peoKYL79jnbFn6fgYiXXIGb6DbQaLfXLlyfvQ=",
+        "lastModified": 1730045049,
+        "narHash": "sha256-wk6JH7D5uM2K4DJA4O7Wcsz0Qc3AbnED+wgZqMKNL9I=",
         "ref": "master",
-        "rev": "5027c1fcf200962f3e674a71c97cc1c5304dec77",
-        "revCount": 7,
+        "rev": "3d0166f34a0fef7a585c76ad794cba93e0c69ec3",
+        "revCount": 6,
         "type": "git",
         "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A/B"
       },
@@ -19,6 +19,27 @@
         "ref": "master",
         "type": "git",
         "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A/B"
+      }
+    },
+    "mypackage_A": {
+      "inputs": {
+        "mypackage": "mypackage"
+      },
+      "locked": {
+        "dir": "A",
+        "lastModified": 1730045499,
+        "narHash": "sha256-fz4/95peoKYL79jnbFn6fgYiXXIGb6DbQaLfXLlyfvQ=",
+        "ref": "master",
+        "rev": "5027c1fcf200962f3e674a71c97cc1c5304dec77",
+        "revCount": 7,
+        "type": "git",
+        "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A"
+      },
+      "original": {
+        "dir": "A",
+        "ref": "master",
+        "type": "git",
+        "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A"
       }
     },
     "nixpkgs": {
@@ -39,7 +60,7 @@
     },
     "root": {
       "inputs": {
-        "mypackage_B": "mypackage_B"
+        "mypackage_A": "mypackage_A"
       }
     }
   },

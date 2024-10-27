@@ -1,8 +1,8 @@
 {
   inputs = {
-    mypackage.url = "git+ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A/B&ref=master";
+    mypackage_B.url = "git+ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A/B&ref=master";
   };
-  outputs = inputs @ { mypackage, ... }: {
-    A_output = mypackage.B_output;
+  outputs = inputs @ { mypackage_B, ... }: {
+    A_output = mypackage_B.B_output;
   };
 }
