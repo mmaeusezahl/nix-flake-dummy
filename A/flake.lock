@@ -1,0 +1,47 @@
+{
+  "nodes": {
+    "mypackage": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "dir": "A/B",
+        "lastModified": 1730044464,
+        "narHash": "sha256-8TMmtlTBhfQN5qMJaPi0AwE5Wuk3PPbBGP5e5CKwxSQ=",
+        "ref": "refs/heads/master",
+        "rev": "0c0a8068bae90b2f362afe7d2bca4b6b0f46af9d",
+        "revCount": 3,
+        "type": "git",
+        "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A/B"
+      },
+      "original": {
+        "dir": "A/B",
+        "type": "git",
+        "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A/B"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1729880355,
+        "narHash": "sha256-RP+OQ6koQQLX5nw0NmcDrzvGL8HDLnyXt/jHhL1jwjM=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "18536bf04cd71abd345f9579158841376fdd0c5a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "mypackage": "mypackage"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
