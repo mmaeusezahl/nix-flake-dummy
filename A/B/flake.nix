@@ -2,6 +2,6 @@
   inputs = {
   };
   outputs = { }: {
-    # no output
+    message = "Test";
   };
 }
