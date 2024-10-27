@@ -6,11 +6,11 @@
       },
       "locked": {
         "dir": "A/B",
-        "lastModified": 1730044464,
-        "narHash": "sha256-8TMmtlTBhfQN5qMJaPi0AwE5Wuk3PPbBGP5e5CKwxSQ=",
+        "lastModified": 1730044766,
+        "narHash": "sha256-bpiatmJX8CT3zFeVVHu1XYI24r6eVEka/TbFuJv0qBI=",
         "ref": "refs/heads/master",
-        "rev": "0c0a8068bae90b2f362afe7d2bca4b6b0f46af9d",
-        "revCount": 3,
+        "rev": "7260689f3e27a15ac02c9272ef12f9f8512e04be",
+        "revCount": 5,
         "type": "git",
         "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A/B"
       },
