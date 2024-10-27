@@ -1,45 +1,45 @@
 {
   "nodes": {
-    "mypackage": {
+    "mypackage_A": {
+      "inputs": {
+        "mypackage_B": "mypackage_B"
+      },
+      "locked": {
+        "dir": "A",
+        "lastModified": 1730047401,
+        "narHash": "sha256-U2XrrcDb3eSkhxExZr+4cfsUFoxFe6O+lbY1xDdyKkk=",
+        "ref": "master",
+        "rev": "e379f705c566cea8860b3b1ab885c910c7c2fd32",
+        "revCount": 9,
+        "type": "git",
+        "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A"
+      },
+      "original": {
+        "dir": "A",
+        "ref": "master",
+        "type": "git",
+        "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A"
+      }
+    },
+    "mypackage_B": {
       "inputs": {
         "nixpkgs": "nixpkgs"
       },
       "locked": {
         "dir": "A/B",
-        "lastModified": 1730045049,
-        "narHash": "sha256-wk6JH7D5uM2K4DJA4O7Wcsz0Qc3AbnED+wgZqMKNL9I=",
-        "ref": "master",
-        "rev": "3d0166f34a0fef7a585c76ad794cba93e0c69ec3",
-        "revCount": 6,
-        "type": "git",
-        "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A/B"
-      },
-      "original": {
-        "dir": "A/B",
-        "ref": "master",
-        "type": "git",
-        "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A/B"
-      }
-    },
-    "mypackage_A": {
-      "inputs": {
-        "mypackage": "mypackage"
-      },
-      "locked": {
-        "dir": "A",
         "lastModified": 1730045499,
         "narHash": "sha256-fz4/95peoKYL79jnbFn6fgYiXXIGb6DbQaLfXLlyfvQ=",
         "ref": "master",
         "rev": "5027c1fcf200962f3e674a71c97cc1c5304dec77",
         "revCount": 7,
         "type": "git",
-        "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A"
+        "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A/B"
       },
       "original": {
-        "dir": "A",
+        "dir": "A/B",
         "ref": "master",
         "type": "git",
-        "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A"
+        "url": "ssh://git@github.com/mmaeusezahl/nix-flake-dummy.git?dir=A/B"
       }
     },
     "nixpkgs": {
